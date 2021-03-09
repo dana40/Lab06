@@ -121,7 +121,7 @@ lq %>%
 \textcolor{red}{10 states with only one La Quinta Locations}
 
 
-5. Which states have the most Denny's locations per thousand square miles? What about La Quinta?
+5. Which states have the most Denny's locations per thousand square miles? United States. What about La Quinta?
 
 \textcolor{red}{We are interested in the number of locations per state, which we could find in Denny's or La Quinta's datasets, and the area of each state, which is only available in the `states` dataset, which we imported earlier from the Data folder using the code `states <- read_csv("data/states.csv")`.}
 
@@ -164,8 +164,8 @@ We can plot the locations of the two establishments using a scatter plot, and co
 Note that the latitude is plotted on the x-axis and the longitude on the y-axis.
 
 ```{r}
-ggplot(dn_lq, mapping = aes(x = longitude, y = latitude, color = establishment)) +
-    geom_point()
+ ggplot(dn_lq, mapping = aes(x = longitude, y = latitude, color = establishment)) +
+    geom_point() 
 ```
 
 \textcolor{red}{The graph figure shows that indeed there are many La Quinta hotels that located next to Denny's restaurants. We could also see from the figure that there is the presence of the two chains across the US as the figure almost depict the exact map of the country. The figure also indicates the presence of these chains in Alaska (top-left), Hawaii (bottom-left), and some cities in Central America(bottom-right)}
