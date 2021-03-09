@@ -64,15 +64,15 @@ Knit, *commit, and push your changes to GitHub with an appropriate commit messag
 For Denny's
 
 ```{r}
-dn <- dennys %>%
-    mutate(country = "United States")
+ dn <- dennys %>%
+    mutate(country = "United States") 
 ```
 
 
 For La Quinta
 ```{r}
-lq <- laquinta %>%
-    mutate(country = "United States")
+ lq <- laquinta %>%
+    mutate(country = "United States") 
 ```
 
 Knit, *commit, and push your changes to GitHub with an appropriate commit message. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.*
