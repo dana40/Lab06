@@ -78,7 +78,7 @@ For La Quinta
 Knit, *commit, and push your changes to GitHub with an appropriate commit message. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.*
 
 
-4.  Which states have the most and fewest Denny's locations? What about La Quinta? Is this surprising? Why or why not?
+4.  Which states have the most and fewest Denny's locations? CA. What about La Quinta? Is this surprising? Why or why not?
 
 For Denny's - Most
 
